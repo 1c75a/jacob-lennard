@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player2 - Contact</title>
+    <link rel="stylesheet" href="contactJ.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <div class="head">
+    <div class="logo">Mark Jacob <span class="spago"> Capague </span></div>
+    <nav>
+        <ul>
+            <li><a href="1.html">Home</a></li>
+            <li><a href="player1.html">Player 1</a></li>
+            <li><a href="player2.html">Player 2</a></li>
+        </ul>
+    </nav><br>
+</div>
+
+  <body>
+
+    <div id="preloader">
+      <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+          <div class="wheel"></div>
+          <div class="hamster">
+              <div class="hamster__body">
+                  <div class="hamster__head">
+                      <div class="hamster__ear"></div>
+                      <div class="hamster__eye"></div>
+                      <div class="hamster__nose"></div>
+                  </div>
+                  <div class="hamster__limb hamster__limb--fr"></div>
+                  <div class="hamster__limb hamster__limb--fl"></div>
+                  <div class="hamster__limb hamster__limb--br"></div>
+                  <div class="hamster__limb hamster__limb--bl"></div>
+                  <div class="hamster__tail"></div>
+              </div>
+          </div>
+          <div class="spoke"></div>
+      </div>
+  </div>
+
+    <div class="sidebar">
+        <div class="sidebar-icon" onclick="toggleSidebar()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="sidebar-content">
+            <ul>
+                <li><a href="player2.html">About</a></li>
+                <li><a href="resumeJ.html">Resume</a></li>
+                <li><a href="contactJ.html">Contact</a></li>
+                <li><a href="addressJ.html">Address</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            We’d love to hear from you! Reach out with any questions, feedback, or inquiries. Fill out the form below or use our contact details to get in touch. We're here to help!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>3210 Luwasan St., Magpapalyoc S/L</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>jacobcapague11@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>0977 398 7571</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/markjacob.capague?mibextid=ZbWKwL">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/Jacob12277026?t=W5K8b7ZunCuAbGYih2B4kg&s=09">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/jcobb07/profilecard/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.tiktok.com/@champoradongputiii?_r=1&_d=secCgYIASAHKAESPgo8JLzy9alJNGJYf9fjM1Z7CzlBvO9NsqReADilED8%2BO8fYFowqOu04jDImvTj8J51EQVQRdkYy4aMpZR2KGgA%3D&checksum=4a5ed51de7efc77daa9edbee01f86bf35db9728010450b0b1c17c32fbb992217&sec_uid=MS4wLjABAAAAyIH8AkiIxa8do8-F7cL71LZbLRVZSitLlzuYgE_snObf3rL71DttB6jBFEYuAuNo&sec_user_id=MS4wLjABAAAAyIH8AkiIxa8do8-F7cL71LZbLRVZSitLlzuYgE_snObf3rL71DttB6jBFEYuAuNo&share_app_id=1180&share_author_id=6929674292368671745&share_link_id=dc25663f-30c4-4e3a-b5d0-b6e2bf746b30&sharer_language=en&social_share_type=5&source=h5_t&timestamp=1732371558&u_code=dh4k77de22adab&ug_btm=b8727%2Cb0229&ugbiz_name=ACCOUNT&user_id=6929674292368671745&utm_campaign=client_share&utm_medium=android&utm_source=copy">
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" required />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required/>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="tel" class="input" required/>
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <p>&copy;2024 Lennard/Jacob | All Rights Reserved</p>
+    </footer>
+
+    <script>
+      window.addEventListener("load", function () {
+          setTimeout(function () {
+              document.getElementById("preloader").style.display = "none";
+              document.getElementById("main-content").style.display = "block";
+          }, 500); 
+      });
+  </script>
+
+    <script src="contact.js"></script>
+    <script>
+        function toggleSidebar() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        }
+    </script>
+  </body>
+</html>
